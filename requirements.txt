@@ -1,0 +1,9 @@
+argparse==1.4.0
+requests==2.26.0
+pyfiglet==0.8.post1
+pwn==0.0.0
+nmap==0.7.1
+imgkit==1.2.2
+Pillow==9.0.0
+tabulate==0.8.9
+tailer==0.5.2
