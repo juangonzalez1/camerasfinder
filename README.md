@@ -42,4 +42,24 @@ Es necesario disponer de una **API KEY** de Shodan y ejecutar el script con **pe
 - **Opción _-t_**: Establece el ficheiro de _log_ en el que se van a almacenar los resultados obtenidos, en formato texto.
 
 ## Ejemplos
-- Búsqueda de distintos modelos y marcas de cámaras IP 
+- Búsqueda de distintos modelos y marcas de cámaras IP en Estados Unidos:
+
+  ```bash
+  python3 camerasFinder.py -k Shodan_API_KEY -a -o "Us" -l 2
+  ```
+  ![BúsquedaAutomática](resources/script-busquedaAutomatica.jpg)
+
+
+- Escaneo de puertos y servicios.
+  ```bash
+  python3 camerasfinder.py -k Shodan_API_KEY -k Shodan_API_KEY -f "webcam has_screenshot:true" -o "Es" -l 10
+  ```
+  ![Nmap](resources/script-nmap.jpg)
+
+
+- Explotación y creación de usuario administrador en una cámara **Hikvision**:
+  ```bash
+  python ./script.py -k Shodan_API_KEY -f netcam -o "ES" -t test
+  ```
+  ![Crear usuario](resources/script-crearUsuario-censured.jpg)
+
