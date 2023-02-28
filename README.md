@@ -23,6 +23,10 @@ pip install -r requirements.txt
 Es necesario disponer de una **API KEY** de Shodan y ejecutar el script con **permisos de administrador**.
 
 ## Uso
+
+![Uso camerasFinder](resources/script-help.jpg)
+
+
 - **Opción _-a_**: Se realiza una búsqueda de las principales cámaras IP accesibles a través de internet. Esta búsqueda se realiza a partir de una serie de queries _hardcodeadas_ en el código, las cuales hacen referencia de los principais modelos de cámaras del mercado.
 
 - **Opción _-f_**: Se realiza una búsqueda concreta de un módelo de cámara mediante la introducción de una cadena de texto o query proporcionada por el usuario.
