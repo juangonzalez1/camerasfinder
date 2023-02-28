@@ -40,3 +40,6 @@ Es necesario disponer de una **API KEY** de Shodan y ejecutar el script con **pe
 - **Opción _-l_**: Limita el número de resultados mostrados para cada búsqueda. Por defecto este valor está acotado a 20 resultados.
 
 - **Opción _-t_**: Establece el ficheiro de _log_ en el que se van a almacenar los resultados obtenidos, en formato texto.
+
+## Ejemplos
+- Búsqueda de distintos modelos y marcas de cámaras IP 
