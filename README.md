@@ -15,14 +15,12 @@ Herramienta destinada a la obtención de información y explotación de cámaras
 ## Instalación
 
 ```bash
-# git clone https://github.com/juangonzalez1/TFM
-# cd TFM
-# pip install -r requirements.txt
+git clone https://github.com/juangonzalez1/TFM
+cd TFM
+pip install -r requirements.txt
 ```
 
-
-
-Es necesario disponer de una **API KEY** de Shodan.
+Es necesario disponer de una **API KEY** de Shodan y ejecutar el script con **permisos de administrador**.
 
 ## Uso
 - **Opción _-a_**: Se realiza una búsqueda de las principales cámaras IP accesibles a través de internet. Esta búsqueda se realiza a partir de una serie de queries _hardcodeadas_ en el código, las cuales hacen referencia de los principais modelos de cámaras del mercado.
