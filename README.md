@@ -13,11 +13,11 @@ Herramienta destinada a la obtención de información y explotación de cámaras
 - Mostrar los resultados obtenidos en una salida límpia y amigable, así como tener la posibilidad de almacenar en un fichero dichos resultados para el futuro análisis o consulta.
 
 ## Instalación
-Clonamos el repositorio:
 
-```
+```bash
 # git clone https://github.com/juangonzalez1/TFM
 # cd TFM
+# pip install -r requirements.txt
 ```
 
 
